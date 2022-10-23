@@ -7,25 +7,30 @@
     <meta name="keywords" content="Резюме, веб, разработчик">
     <meta name="description" content="Резюме веб-разработчика">
     <title>Резюме Чуркина Е.О.</title>
+ <link rel="stylesheet" href="css-main.css">
 </head>
 <body>
-    <img src="IMG_5677.jpg" alt="Foto" width="300">
-    <h1>Елена Чуркина</h1>
+    <div class="container">
+    <div class="card">
+        <div class="foto1"><img src="IMG_5677.jpg" alt="Foto" class="foto">
+            
+            </div>
+            <div class="opisanie"><h1>Елена Чуркина</h1>
     <p>Мои увлечения: спорт, путешествия, выращивание цветов.
         Готова к <strong>командировкам, переезду.</strong>
         <em>Люблю изучать новое.</em>
-    </p>
-    <ul> Мои умения:
+    </p></div></div>
+    <div class="card">
+        <h3>Мои умения:</h3>
+        <ul class="spisok"> 
         <li>HTML</li>
         <li>CSS</li>
         
-    </ul>
+    </ul></div>
+    <div class="card">
+        <h3>Опыт работы</h3>
     <table cellpadding="6">
-        <thead>
-            <tr>
-                <th colspan="10">Опыт работы</th>
-            </tr>
-        </thead>
+        
         <tbody>
             <tr>
                 <td>Верстальщик сайтов</td>
@@ -43,36 +48,34 @@
                 <td>2022</td>
             </tr>
         </tbody>
-    </table>
-    
-    <p>   
-Список социальных сетей:
-<a href="https://vk.com/leno4ek_angelo4ek" target="_blank">VKontakte</a>
+    </table>  
+<p>Список социальных сетей:
+<a href="https://vk.com/leno4ek_angelo4ek" target="_blank">VKontakte</a></p>
 
-</p>
-<form>
+</div>
+
+<div class="card"> 
+
    <h3>Связаться со мной</h3> 
-    
-    <div>
+   
+    <div class="sozvon">
       <label for="text">Имя</label>
       <input type="text" id="text" placeholder="Введите имя">
-    </div>
-
-    <div>
+    
       <label for="email">Email</label>
       <input type="email" id="email" placeholder="Введите email">
     </div>
  
-    <div>
-      <label for="message" placeholder="Введите сообщение">Сообщение</label>
-      <br>
-      <textarea id="message" cols="25" rows="5"></textarea>
+    <div class="message1">
+      <label for="text"  >Сообщение</label>
+  
+      <textarea id="message" rows="5" cols="30" placeholder="Введите сообщение" ></textarea>
     </div>
 
-    
- 
-    <button type="submit">Отправить</button>
 
-  </form>
+    <div class="button1">
+    <button type="submit" class="btn">Отправить</button>
+</div></div>
+  </form></div></div>
 </body>
 </html>

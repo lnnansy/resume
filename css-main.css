@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+ 
+    font-family: 'Open Sans', sans-serif, 'Courier New', Courier, monospace;
+ font-size: 15px;
+ font-weight: 450;
+color: #657887;
+background-color: rgba(199, 205, 211, 0.533);
+
+}
+
+p {
+letter-spacing: unset; 
+padding: 12px 0px 0px 8px;   
+}
+h1, h3 {
+    padding: 12px 0px 0px 8px;
+    display:block;
+}
+.card {
+ border:3px;
+ border-radius: 10px;
+ background-color:hsl(205, 23%, 85%);
+ padding-bottom:20px;
+ 
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+.foto{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 300px;
+}
+a{
+    color:rgb(105, 110, 177); 
+}
+a:hover {
+    color:crimson;
+}
+.btn{
+    border-radius: 3px;
+    border: 0 solid ;
+ background-color:hsl(180, 1%, 17%);
+ color:lavender;
+ font-family: inherit;
+ width: 200px;
+ height: 40px;
+ 
+}
+.btn:hover{
+    opacity: 0.7;
+    border: 0 solid ;
+}
+.spisok{
+margin:0;
+padding: 0 20px;
+
+}
+
+.spisok li{
+margin-bottom: 10px;
+
+list-style:inside;
+}
+tr > td:hover  { 
+    display: block;
+    background: #6b7988;
+color:aliceblue;
+}
+/* form .sozvon, form .message1 {
+    padding: 0px;
+    margin: 0px;
+} */
+/* .soz1 {
+    position: relative;
+    top: 0px;
+} */
+.sozvon{
+    display: inline-block ;
+    width:25%;
+    
+    margin: 0px 0px 20px 0px;
+    padding: 0px 10px;
+    /* float:left ; */
+}
+.message1 {
+    display: inline-block;
+    width:25%;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 10px;
+    
+    /* float:left ; */
+    /* margin: 20px 0px 0px 0px; */
+    /* padding: 6px 10px;  */
+}
+/* .mess1 {
+    padding: -20px 0px 10px 0px;
+    margin: -40px 0px 10px 0px;
+} */
+.button1{
+    display:block;
+        margin-bottom:16px;
+    padding: 6px 10px;
+}
+.opisanie{
+    width:40%;
+    display:inline-block;
+    margin: 10px 20px;
+    vertical-align: top;
+}
+.foto1{
+    width:40%;
+    display:inline-block;
+    margin: 10px 20px;
+}
+input {
+    width: 300 px;
+    height: 40px;
+    border: none;
+    font-family: inherit;
+    /* box-sizing: border-box;
+    -moz-box-sizing: border-box; */
+}
+
+textarea {
+    /* height: 100%;
+    width: 100 %; */
+    border: none; 
+    /* margin: 0px;
+    padding: 0px; */
+    font-family: inherit;
+    /* padding: 1px 2px 1px 2px;
+    margin: 1px 2px 1px 2px; */
+    /* box-sizing: border-box;
+    -moz-box-sizing: border-box; */
+}
+label {
+    display:block;
+    
+    margin: 10px 8px 10px 0px;
+}
+/* button1 {
+padding: 8px;
+} */
+@media (max-width: 600px) {
+    .opisanie{
+        
+        display:block;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .foto1{
+        
+        display:block;
+        margin: 10px 20px;
+    }
+    .container{
+        width: 100%
+        
+    }
+    /* .card {
+        border:3px;
+        border-radius: 10px;
+        background-color:hsl(205, 23%, 85%);
+        padding-bottom:20px;
+        display: block ;
+        height: auto;
+       } */
+    .sozvon{
+        display: block ;
+        width:80%;
+        /* box-sizing: border-box;
+        margin: 0px 0px 20px 0px;
+        padding: 0px 10px; */
+        /* float:left ; */
+    }
+    .message1 {
+        display: block;
+        width:80%;
+        position: relative;
+        /* box-sizing: border-box;
+        margin: 0px 0px 20px 0px;
+        padding: 0px 10px;
+         */
+        /* float:left ; */
+        /* margin: 20px 0px 0px 0px; */
+        /* padding: 6px 10px;  */
+    }
+    /* .button1{
+        display:block;
+        margin: auto;
+        width:80%;  
+        position: absolute; 
+        box-sizing: border-box;
+  }
+  .form {
+    width:80%; 
+    display: block;
+  } */
+}
